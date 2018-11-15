@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="a0b93393-357e-4acc-a0ee-3fc6bb807d2f" name="UMLUseCaseDiagram1" linkedPackageId="e229647d-5b82-4cf4-a8ea-d09f9b7c2371" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <ownedCommentsInternal>
+    <comment Id="aef65f61-a9ad-43ee-9cae-a7e82b574626">
+      <elementDefinition Id="8b17d62b-79b3-4a3f-9339-e69eb5dcf986" />
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="ee5e2984-2b9a-4268-b886-40d2950bc25a" name="Subsystem1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="813ce5a5-0273-4b0e-9147-e2a9381ff5d5" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="89463740-46b4-4100-b313-4031638cea89" name="customer " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="987b21b4-d393-4960-995b-b4659546cf6d" />
+        <targetEnds>
+          <association Id="90ac34e0-c3e5-4f20-87e7-8d318929ff53" isDerived="false" sourceEndRoleName="Actor1" targetEndRoleName="Search for games on our store " isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d55b260b-91cd-4813-b83b-31cc62e75178" LastKnownName="Search for games on our store " />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="62b0c30d-d718-40d1-b590-19f14a892246" name="Actor1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fe5a5c57-8661-4505-b14e-38c3410f55fc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d58a7432-e13c-4205-9be9-091323c914c1" name="Search for games on our store " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="437df0d6-3a51-4756-b839-2510535ffb65" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0a0acc40-639e-466e-9ab0-78b649a05081" />
+          </association>
+          <association Id="551f638c-dc58-4092-8ddd-0b8effe886a9" isDerived="false" sourceEndRoleName="Actor1" targetEndRoleName="game making and learning area " isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="63bcd899-bc99-46e9-995d-0a756eb6b47d" LastKnownName="game making and learning area " />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7799608c-e82e-463f-8668-2bdbabaf00e5" name="Actor1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9f463646-e32e-4cf2-852a-ce70a40823a9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2bebec47-db3d-4b3d-ae34-8732effbf03a" name="game making and learning area " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b2d17e97-3f7a-4886-b352-2cfa7a47a092" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fe9904f9-ae11-4673-96c9-ab0ae8c54337" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="2f35c6a9-1543-4df3-b07d-6c38890afe06" name="website " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0e4317c6-e173-4427-a3b2-03cb92c30ccc" />
+        <targetEnds>
+          <association Id="df10e84d-5a09-4b2d-969b-b1a6ea5d86dc" isDerived="false" sourceEndRoleName="Actor2" targetEndRoleName="Provide products for users" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d0a5d1e9-47b6-4306-b4d2-63006179f203" LastKnownName="Provide products for users" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e766042f-0b17-41d2-abed-e8cdcda956ef" name="Actor2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2bc67b6c-b4c0-40dd-b6a6-1883bf99a51b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="85e8b8bf-4855-4277-893b-a4d11a7069fb" name="Provide products for users" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c0ffd52f-a6c8-464c-9a4b-74074cff5981" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fd24193e-4e40-4583-820b-c9e96a1f06e9" />
+          </association>
+          <association Id="ec72a206-b93b-42e0-a529-e88e93825aeb" isDerived="false" sourceEndRoleName="Actor2" targetEndRoleName="maintain site and keep up to date " isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="50fc4b6b-6a36-4dde-804e-7d1789a7d0e7" LastKnownName="maintain site and keep up to date " />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="759d6a78-e361-42f0-ab3b-19637ca2ed14" name="Actor2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2306602b-1f18-44a9-9020-df8b493e3386" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0831f24c-6365-4109-bf0e-937b2f67817b" name="maintain site and keep up to date " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6f9705eb-f91c-49df-b1e0-70c29ca5601c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="18077631-84b2-46d8-a668-1bb9e1ec2434" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="d55b260b-91cd-4813-b83b-31cc62e75178" name="Search for games on our store " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1d336adc-7cf4-4686-9cd0-cb177bbbbd05" />
+        <additions>
+          <include Id="253fb3d9-5309-4362-9b26-3274f9d1edec">
+            <useCaseMoniker Id="b7d8732b-b33a-4f08-b89e-a7b68dc5db78" LastKnownName="read game description" />
+            <elementDefinition Id="2289064c-e95a-4e3e-b27c-ec5031aa7520" />
+          </include>
+          <include Id="68ea53d2-9ac6-423e-a5b6-38701a81f78c">
+            <useCaseMoniker Id="7ec764a7-4799-4ea2-8bc7-89d54b9f6fdf" LastKnownName="sell games we offer on our store " />
+            <elementDefinition Id="1b2678f8-60b5-47aa-b6ec-4aaa37f592fa" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="ee5e2984-2b9a-4268-b886-40d2950bc25a" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="b7d8732b-b33a-4f08-b89e-a7b68dc5db78" name="read game description" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="987d836b-2d64-4e3e-90c8-6f80e16134d7" />
+        <extendedCases>
+          <extend Id="7b3d705b-9f6b-4d1e-a287-a1bf62bf44bd">
+            <useCaseMoniker Id="3384fccc-dece-43de-a971-db127410ee6f" LastKnownName="game purchase " />
+            <elementDefinition Id="bed13219-9a16-49b7-aa1e-01d580e9580c" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="ee5e2984-2b9a-4268-b886-40d2950bc25a" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="d2df5c67-450b-43f1-a677-37f938ad6f62" name="certified teacher " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a96a83f9-b67e-4ffd-bf4c-5e565817bddc" />
+        <targetEnds>
+          <association Id="72c7a6a1-4d88-49d8-b9bc-f403e987cf97" isDerived="false" sourceEndRoleName="Actor3" targetEndRoleName="Provide tools to make game " isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5f26897b-306c-446f-ab97-49e6aae140db" LastKnownName="Provide tools to make game " />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8f0e2b3e-ae58-4a68-8a75-be154e73c07a" name="Actor3" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="86ecb372-d95e-4345-92a8-ee7dc735fe52" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f87712d8-e6cc-4a49-a327-26ab0c062731" name="Provide tools to make game " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a95de524-e1bb-407a-9b80-bf9e21dc8320" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="dbce2b1e-17d7-434d-b5dc-cef1a32aafda" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3384fccc-dece-43de-a971-db127410ee6f" name="game purchase " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0b5b7abb-4006-4be9-bcf8-1a707c7563e2" />
+        <extendedCases>
+          <extend Id="9136c6c7-481e-43a9-850e-70b9541b896f">
+            <useCaseMoniker Id="3384fccc-dece-43de-a971-db127410ee6f" LastKnownName="game purchase " />
+            <elementDefinition Id="4fa19180-a608-47bf-bdfd-39df673fff21" />
+          </extend>
+          <extend Id="69d2c8ba-cce8-4354-af3d-5f39a593ccbe">
+            <useCaseMoniker Id="d0a5d1e9-47b6-4306-b4d2-63006179f203" LastKnownName="Provide products for users" />
+            <elementDefinition Id="d032fe32-1076-4a89-a71b-83378d264e13" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="ee5e2984-2b9a-4268-b886-40d2950bc25a" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="d0a5d1e9-47b6-4306-b4d2-63006179f203" name="Provide products for users" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="720e5d96-f26c-4f73-87b0-d9a87b7ecae5" />
+        <subjects>
+          <subsystemMoniker Id="ee5e2984-2b9a-4268-b886-40d2950bc25a" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="7ec764a7-4799-4ea2-8bc7-89d54b9f6fdf" name="sell games we offer on our store " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0b079003-22a8-4735-be59-f62e435202ea" />
+        <extendedCases>
+          <extend Id="a17b08b1-ebe9-4865-9f66-6ef7dc68c1fe">
+            <useCaseMoniker Id="50fc4b6b-6a36-4dde-804e-7d1789a7d0e7" LastKnownName="maintain site and keep up to date " />
+            <elementDefinition Id="098eb9d9-aaff-436f-b6bd-7a74099dc531" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="ee5e2984-2b9a-4268-b886-40d2950bc25a" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="50fc4b6b-6a36-4dde-804e-7d1789a7d0e7" name="maintain site and keep up to date " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c674665a-d4b5-4115-9a17-cbfb59bf105b" />
+        <subjects>
+          <subsystemMoniker Id="ee5e2984-2b9a-4268-b886-40d2950bc25a" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="63bcd899-bc99-46e9-995d-0a756eb6b47d" name="game making and learning area " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0ae196c3-e5a1-4679-8604-016912738065" />
+        <additions>
+          <include Id="d43d18c9-5363-4130-9758-08f1a0b0395b">
+            <useCaseMoniker Id="ac6dd194-c082-4076-b480-fad6cffa0120" LastKnownName="get help learning about games " />
+            <elementDefinition Id="c6e09a4c-e289-463d-a373-3cdd0f96a5a6" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="ee5e2984-2b9a-4268-b886-40d2950bc25a" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="ac6dd194-c082-4076-b480-fad6cffa0120" name="get help learning about games " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6663bc75-243b-4cb9-943e-6d28e79c1fe0" />
+        <additions>
+          <include Id="ea6dfbcb-b59f-445c-afd9-15f3d9033c51">
+            <useCaseMoniker Id="59d6eae4-55e7-4d4d-adae-afa1f1655ec2" LastKnownName="make games and learn how too" />
+            <elementDefinition Id="0ffbe23b-5aef-41e6-9e2f-adea3b24f083" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="ee5e2984-2b9a-4268-b886-40d2950bc25a" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="59d6eae4-55e7-4d4d-adae-afa1f1655ec2" name="make games and learn how too" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cd614e6f-5908-4fa4-bc25-dbbe9fd6f373" />
+        <extendedCases>
+          <extend Id="6a44eb9a-0a3d-4246-8908-d712f6c407c0">
+            <useCaseMoniker Id="5f26897b-306c-446f-ab97-49e6aae140db" LastKnownName="Provide tools to make game " />
+            <elementDefinition Id="e882469d-0191-4fb7-bbaa-4d6a708a7236" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="ee5e2984-2b9a-4268-b886-40d2950bc25a" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="5f26897b-306c-446f-ab97-49e6aae140db" name="Provide tools to make game " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0a986889-6f5a-4c2c-a532-50cb84b6a9f5" />
+        <subjects>
+          <subsystemMoniker Id="ee5e2984-2b9a-4268-b886-40d2950bc25a" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="e229647d-5b82-4cf4-a8ea-d09f9b7c2371" name="ModelingProject2">
+    <elementDefinition Id="f61a307b-a134-4a42-a155-bd719b7351ba" />
+    <profileInstances>
+      <packageHasProfileInstances Id="e6dc7537-34bc-4a6a-9cdb-4769fbc4cdc2">
+        <profileInstance Id="080eb08a-f488-4557-a636-ea0fb8467a0c" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="8caa0e3e-3d4c-4678-b54b-b294ea6cb047">
+        <profileInstance Id="586c942f-42dc-423a-83ac-f872f1e37499" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>
